@@ -1,0 +1,35 @@
+body{
+    background-color: pink;
+    font-family: sans-serif;
+}
+
+.agregar{
+  border-style: inset;
+  border-color: chocolate;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+input{
+    margin: 10px;
+    height: 25px;
+    border-radius: 12px;
+}
+
+#boton{
+    border-radius: 5px;
+    height: 32px;
+    width: 120px;
+}
+
+.base{
+    color:graytext;
+}
+
+#editorialA{
+    margin: 10px;
+    height: 32px;
+    border-radius: 12px;
+}
