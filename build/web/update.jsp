@@ -12,7 +12,7 @@
     </head>
     <body>
         <sql:setDataSource var = "fuenteDatos" driver = "org.mariadb.jdbc.Driver"
-                           url = "jdbc:mariadb://localhost:3308/grupo07"
+                           url = "jdbc:mariadb://localhost:3306/grupo03"
                            user = "root"  password = ""/>
 
         <sql:update dataSource="${fuenteDatos}" var="count">

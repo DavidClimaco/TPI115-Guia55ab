@@ -13,8 +13,8 @@
     </head>
     <body>
         <sql:setDataSource var = "fuenteDatos" driver = "org.mariadb.jdbc.Driver"
-                           url = "jdbc:mariadb://localhost:3306/grupo03"
-                           user = "root"  password = ""/>
+                           url = "jdbc:mariadb://10.122.240.15/grupo03"
+                           user = "root"  password = "KZqwIos8I8"/>
 
         <c:if test="${empty param.isbn or empty param.titulo or empty param.autor or empty param.editorial}">
             <c:redirect url="index.jsp">     
